@@ -6,17 +6,21 @@ public class InventoryItem {
     protected Integer quantity;
     protected String category;
 
+
     public InventoryItem(){}
 
-    public InventoryItem(String name, Integer quantity, String category){
+    public InventoryItem(String name, Integer quantity){
         this.name = name;
         this.quantity = quantity;
-        this.category = category;
     }
 
-    public String getCategory() { return category; }
+    public String getCategory() {
+        return category;
+    }
 
-    public void setCategory(String category) { this.category = category; }
+    public void setCategory(String category) {
+        this.category = category;
+    }
 
     public String getName() { return name; }
 

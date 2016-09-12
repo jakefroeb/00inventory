@@ -3,7 +3,8 @@
  */
 public class Furniture extends InventoryItem{
 
-    public Furniture(String name, int quantity, String category){
-        super(name,quantity,category);
+    public Furniture(String name, int quantity){
+        super(name,quantity);
+        this.category = "Furniture";
     }
 }

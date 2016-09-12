@@ -3,8 +3,9 @@
  */
 public class Food extends InventoryItem{
 
-    public Food(String name, int quantity, String category){
-        super(name,quantity,category);
+    public Food(String name, int quantity){
+        super(name,quantity);
+        this.category = "Food";
     }
 
 }
